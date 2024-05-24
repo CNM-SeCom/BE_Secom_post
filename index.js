@@ -13,7 +13,7 @@ const port = 3003;
 
 app.use(cors());
 
-mongoose.connect('mongodb+srv://secom:secom@clusteraccount.4myv0ld.mongodb.net/', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://secom:secom@clusteraccount.4myv0ld.mongodb.net/Secom', { useNewUrlParser: true });
 mongoose.connection.on('error', (err) => {
     console.log('err', err);
 });
